@@ -6,10 +6,9 @@ console.log(numeroDato);
 // const numeroCubo = (Math.pow(numeroDato, 3)) ;
 // console.log(numeroCubo);
 
-for (let i = 0; i <= numeroDAto; i++){
-    const numeroCubo = (Math.pow(numeroDato, 3)) ;
+for (let i = 1; i <= numeroDato; i++){
+    const numeroCubo = (Math.pow(i, 3)) ;
     console.log(numeroCubo);
-
 }
 
 
